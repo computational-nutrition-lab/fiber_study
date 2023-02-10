@@ -1,6 +1,3 @@
-taxa <- tax_norm_s
-length(taxa)
-
 alpha <- mb_sample_metadata_with_alpha_div
 length(alpha)
 head(alpha)
@@ -25,18 +22,26 @@ library(flextable)
 
 setwd("/Users/juliajallo/Documents/Spring 2023 Grad School/ILE")
 
-map <- read.delim("/Users/juliajallo/Documents/Spring 2023 Grad School/ILE/Subject_Metadata.tsv")
-tax_map <- read.delim("/Users/juliajallo/Documents/Spring 2023 Grad School/ILE/mb_sample_metadata_with_alpha_div.txt")
-num_samp <- table(tax_map$SampleID)
-#figure out what two datasets you should be looking at here.. the ID names for 
-#both datasets are not lining up below
+map <- read.delim("/Users/juliajallo/Documents/Spring 2023 Grad School/ILE/ILE data/Subject_Metadata.tsv")
+tax_map <- read.delim("/Users/juliajallo/Documents/Spring 2023 Grad School/ILE/ILE data/mb_sample_metadata_with_alpha_div.txt")
+num_samp <- table(tax_map$StudyID) 
+
 
 # want to make a table of participant data for TRE and Control
 # check that both of these are the same
-sum(map$StudyID == unique(tax_map$SampleID))
+sum(map$StudyID == unique(tax_map$StudyID))
+table(map$StudyID)
+table(tax_map$StudyID)
+
+
+table(map$Age)
+table(map$Gas_leakage)
+table(map$Usual_bristol)
+table(map$Movements_per_week)
+table(map$Physact)
+
 
 # need to add the group for this 
-assignment <- unique(tax_map[,colnames(tax_map) %in% c("participant_ID","randomization_assignment")])
-assignment$participant_ID == map$ID
-
-
+assignment <- unique(tax_map[,colnames(tax_map) %in% 
+c("participant_ID","randomization_assignment")])
+assignment$participant_ID == map$StudyID
