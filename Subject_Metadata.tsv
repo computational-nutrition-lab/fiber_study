@@ -1,0 +1,37 @@
+StudyID	Gender	Group	Age	Study_Status	Compliance_issues	Phase_2_dose	Phase_4_dose	Baseline_Weight_kg	Height_cm	LastPeriodDate_mm_dd_yyyy	WC	Physact	Medications	Supplements	Gas_leakage	Mucus_leakage	Liquid_stool_leakage	Solid_stool_leakage	Movements_per_week	Usual_bristol	Anual_sudden_urge	Anual_constipated	Anual_diarrhea	Last_month_laxatives_yes_no	Last_month_lax_times
+FS02	F	2	22	Complete	NO	High	Low	50.9	164.5	2.5 wks ago	66	3	Birth Control, Nuva ring	Daily Vitamin ("1-daily")	f	f	f	f	14	4	d	d	e	No	Never
+FS03	M	1	39	Complete	NO	Low	High	68.1	166.5	NA	80	2	NA	NA	f	f	f	f	7	4	e	e	d	No	Never
+FS04	F	2	42	Complete	NO	High	Low	56.1	161		81	3	Levotharaxin	PreNatal Vitamins	f	f	f	f	7	3	c	c	d	No	Never
+FS05	M	2	33	Complete	NO	High	Low	62.5	177.2	NA	80	2	NA	Vit D	f	f	f	f	14	3	d	d	d	No	Never
+FS06	F	1	27	Complete	NO	Low	High	73.7	171	04/10/2018	68	2	Ibuprophen, BirthContRexplanon, Allegra, Benadryl	VitC	f	f	f	f	14	3	d	e	d	No	Never
+FS07	F	1	27	Complete	NO	Low	High	60	172.1		66.5	3	Naproxen(notduringstudy)	SmartyPantsProbiotics(NoFiber), Gummy Vit	c	f	f	f	4	6	b	d	a	No	Never
+FS08	M	1	24	Complete	NO	Low	High	62.8	177.5	NA	74.5	2	NA	NA	b	f	f	f	7	6	e	d	c	No	Never
+FS09	M	1	27	Complete	NO	Low	High	70.5	182	NA	77.5	3	NA	Multivitamin	e	f	f	f	7	4	d	d	e	No	Never
+FS10	F	2	40	Complete	NO	High	Low	73.5	166	Histerectomy(12/12/2008)	86.5	2	NA	Vit D, Calcium, Fish Oil (0.5dose, 2xweek)	f	f	f	f	7	1.5	d	b	d	No	1-3 per week
+FS11	F	1	21	Complete	NO	Low	High	69.5	164	04/10/2018	74.5	2	Sprintec(OralBirthControl)	NA	b	f	f	c	10.5	4	d	d	d	No	Never
+FS12	M	2	42	Complete	NO	High	Low	97.1	181	NA	99	3	NA	NA	f	f	f	f	14	4	d	e	d	No	Never
+FS13	M	2	39	Complete	NO	High	Low	84.2	192	NA	96	1	Asprin	Multivitamin	f	f	f	f	7	4	d	d	e	No	Never
+FS14	F	2	44	Complete	NO	High	Low	64.4	169	04/26/2018	75.5	3	NA	Iron(ferrous sulfate), Calcium, Vit C	f	f	f	f	7	4	d	d	d	No	Never
+FS15	F	1	27	Complete	NO	Low	High	51	153	05/08/2018	64	3	Ibuprophen	Multivitamin	d	f	f	f	5.5	4	d	d	d	No	Never
+FS17	M	1	19	Complete	NO	Low	High	72	173	NA	87	2	NA	Vit C, B12, Calcium, Fish Oil, Vit D	f	f	f	f	14	3	d	d	c	No	Never
+FS18	F	2	29	Complete	NO	High	Low	70.9	169	03/09/2018	83	3	Skyla(IUD), Floriase	Magnesium Gluconate, Vit D, Calcium	b	f	f	f	7	3	d	e	d	No	Never
+FS19	M	2	41	Complete	NO	High	Low	89.2	182.5	NA	91.5	3	NA	Probiotic(Thrive), Multivitamin, Mg Powder(occasionally), Fish Oil	f	f	f	f	14	6	b	e	c	No	Never
+FS20	M	1	23	Dropped	NA	Low	High	73.7	170	NA	86.5	3	NA	NA	d	f	f	f	7	4	d	d	d	No	Never
+FS21	M	2	22	Dropped	NA	High	Low	77.3	185	NA	83	3	NA	Psyllium husk (not during study)	f	f	f	f	14	4	e	d	d	No	Never
+FS22	F	2	19	Complete	NO	High	Low	50.8	156	3+ months	67.5	4	Adapalene	Multivitamin	e	f	f	f	9	6	c	c	c	Yes	2-3 per month
+FS24	M	2	24	Complete	NO	High	Low	68.8	173	NA	75	3	NA	Multivitamin	b	f	f	f	6	3	c	d	d	No	Never
+FS25	M	1	25	Complete	NO	Low	High	81.5	175	NA	85	3	NA	NA	a	f	e	f	7	4	d	d	c	No	Never
+FS26	F	1	22	Dropped	NA	Low	High	61.5	161	IUD, none for 2 years	73	3	IUD (Merend), Flonaze 1x/day, Albuterol as needed 1x/year	no	f	f	f	f	7	3	d	c	d	No	Never
+FS27	F	2	21	Dropped	NA	High	Low	65.2	169	06/21/2018	79.5	2	Zoloft 100mg/day, Citcrazine/Zyrtec during excersize in summer and everyday in winter	NA	f	f	f	f	14	5	d	d	d	No	Never
+FS28	M	2	28	Missingv4	NO	High	Low	94.4	182	NA	96	3	Bupropion daily, adderall 7.5mg 2-3x/wk	NA	f	f	f	f	7	3	d	d	d	No	Never
+FS29	M	1	25	Complete	NO	Low	High	97.1	185	NA	90.5	4	Advil occasionally, Zyrtec for allergies	VitaminD3 and Iron Supplement 1/day	f	f	f	f	7	4	e	d	d	No	Never
+FS30	F	1	22	Complete	NO	Low	High	51.8	162	07/05/2018	70	3	Mononessa, Walertin (allergies), Prozac 10mg - each 1pill/day	NA	f	f	f	f	6	3	d	d	d	No	Never
+FS31	M	2	25	Missingv4	NO	High	Low	65.7	169	NA	74.5	4-5	Sudafed 2x/day, allerfax 1x/day	NA	f	f	f	f	21	3	d	e	d	No	Never
+FS32	F	2	68	Dropped	NA	High	Low	60	155	NA, postmenapausal	76.5	1	Loratadine 10mg, Guafenseson 400mg - 1xweek	NA	f	f	f	f	10.5	3	e	c	e	No	Never
+FS33	M	1	18	Missingv4	NO	Low	High	58.5	180	NA	73	4	NA	NA	f	f	f	f	7	5	d	e	d	No	Never
+FS34	M	2	33	Complete	NO	High	Low	79	175	NA	91	4	NA	NA	f	f	f	f	14	5	d	d	c	No	Never
+FS35	F	1	57	Complete	NO	Low	High	68.8	163	NA, postmenapausal	83	2	NA	multivitamin, 1x/day	f	f	f	f	7	2	e	e	e	No	Never
+FS36	F	2	47	Complete	YES	High	Low	43.3	152	07/05/2018	68.5	3	NA	NA	f	f	f	f	7	4	e	d	e	No	Never
+FS37	F	1	20	Missingv4	NO	Low	High	59.7	157.5	07/28/2018	74.5	3	NA	NA	f	f	f	f	14	4	c	c	c	No	Never
+FS38	M	2	19	Complete	YES	High	Low	73	164.5	NA	81	4	NA	pre-workout, multivitamin	f	f	f	f	3	3	d	e	d	No	Never
+FS39	M	1	27	Complete	NO	Low	High	97.5	187.5	M	100	2	Tylenol, Claritin	NA	a	h	c	f	6	6	g	e	g	No	Never
