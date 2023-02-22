@@ -1,0 +1,24 @@
+#recode Shannon to fit binary using mean value
+mean_valueShan <- mean(tax_map$Shannon)
+mean_valueShan
+
+tax_map$binary_shannon <- ifelse(tax_map$Shannon > 2.78, "HighAlpha", "LowAlpha")
+
+table(tax_map$binary_shannon)
+
+#recode Simpson to fit binary using mean value 
+mean_valueSimp <- mean(tax_map$Simpson)
+mean_valueSimp
+
+tax_map$binary_simpson <- ifelse(tax_map$Simpson > .8521, "HighAlpha", "LowAlpha")
+
+table(tax_map$binary_simpson)
+
+#recode taxa to fit binary using mean value 
+
+mean_valueTaxa <- mean(tax_map$Taxacount)
+mean_valueTaxa
+
+tax_map$binary_taxa <- ifelse(tax_map$Taxacount > 407.35, "HighAlpha", "LowAlpha")
+
+table(tax_map$binary_taxa)
